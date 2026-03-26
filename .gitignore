@@ -1,0 +1,6 @@
+*.nc
+*.tif
+.Rhistory
+data/
+output/
+
