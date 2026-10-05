@@ -1,0 +1,61 @@
+Type,Variable,SSP,Biome,value
+Present day,Min. N following permafrost thaw,NA,Taiga,0.10429162917045637
+Present day,Min. N following permafrost thaw,NA,Tundra,0.07350640124502993
+Present day,Min. N following permafrost thaw,NA,Wetlands,0.013255578750175937
+Present day,Min. N following permafrost thaw,NA,Barren,0.0026227198256026383
+Present day,Min. N following permafrost thaw,NA,Other,0
+Present day,N Fixation,NA,Taiga,0.1113032532555035
+Present day,N Fixation,NA,Tundra,0.07793110039348329
+Present day,N Fixation,NA,Wetlands,0.004841697544570153
+Present day,N Fixation,NA,Barren,0.002941789417878955
+Present day,N Fixation,NA,Other,0.008061283208825164
+Present day,N Deposition,NA,Taiga,0.06788169417979782
+Present day,N Deposition,NA,Tundra,0.04596063542094616
+Present day,N Deposition,NA,Wetlands,0.0036652210896420995
+Present day,N Deposition,NA,Barren,0.0023517921428876988
+Present day,N Deposition,NA,Other,0.006041156489593259
+Future anomaly,Min. N following permafrost thaw,SSP1-2.6,Taiga,0.20794087455050492
+Future anomaly,Min. N following permafrost thaw,SSP1-2.6,Tundra,0.19963280385171306
+Future anomaly,Min. N following permafrost thaw,SSP1-2.6,Wetlands,0.06062820227388181
+Future anomaly,Min. N following permafrost thaw,SSP1-2.6,Barren,0.003386326678814329
+Future anomaly,Min. N following permafrost thaw,SSP1-2.6,Other,0
+Future anomaly,N Fixation,SSP1-2.6,Taiga,0.08592404228764858
+Future anomaly,N Fixation,SSP1-2.6,Tundra,0.06374019314789685
+Future anomaly,N Fixation,SSP1-2.6,Wetlands,0.005633755513592434
+Future anomaly,N Fixation,SSP1-2.6,Barren,0.002031483513144082
+Future anomaly,N Fixation,SSP1-2.6,Other,0.006893432838960061
+Future anomaly,N Deposition,SSP1-2.6,Taiga,-0.03608551502204039
+Future anomaly,N Deposition,SSP1-2.6,Tundra,-0.023908907475737887
+Future anomaly,N Deposition,SSP1-2.6,Wetlands,-0.0017404332300116959
+Future anomaly,N Deposition,SSP1-2.6,Barren,-0.0011283633560452806
+Future anomaly,N Deposition,SSP1-2.6,Other,-0.003378381835166125
+Future anomaly,Min. N following permafrost thaw,SSP3-7.0,Taiga,0.4354216248888653
+Future anomaly,Min. N following permafrost thaw,SSP3-7.0,Tundra,0.6238315533193438
+Future anomaly,Min. N following permafrost thaw,SSP3-7.0,Wetlands,0.1276960990135997
+Future anomaly,Min. N following permafrost thaw,SSP3-7.0,Barren,0.013412864149218086
+Future anomaly,Min. N following permafrost thaw,SSP3-7.0,Other,0
+Future anomaly,N Fixation,SSP3-7.0,Taiga,0.16587611270111668
+Future anomaly,N Fixation,SSP3-7.0,Tundra,0.10966997045527808
+Future anomaly,N Fixation,SSP3-7.0,Wetlands,0.013622012570394665
+Future anomaly,N Fixation,SSP3-7.0,Barren,0.004434311547664103
+Future anomaly,N Fixation,SSP3-7.0,Other,0.016868658452150593
+Future anomaly,N Deposition,SSP3-7.0,Taiga,0.008210442057769274
+Future anomaly,N Deposition,SSP3-7.0,Tundra,0.0039892630548463565
+Future anomaly,N Deposition,SSP3-7.0,Wetlands,8.275370987963736e-6
+Future anomaly,N Deposition,SSP3-7.0,Barren,3.646919730354928e-5
+Future anomaly,N Deposition,SSP3-7.0,Other,-8.091082657257853e-4
+Future anomaly,Min. N following permafrost thaw,SSP5-8.5,Taiga,0.5357538725170428
+Future anomaly,Min. N following permafrost thaw,SSP5-8.5,Tundra,0.8654104374086574
+Future anomaly,Min. N following permafrost thaw,SSP5-8.5,Wetlands,0.1516512662751023
+Future anomaly,Min. N following permafrost thaw,SSP5-8.5,Barren,0.01928373439355331
+Future anomaly,Min. N following permafrost thaw,SSP5-8.5,Other,0
+Future anomaly,N Fixation,SSP5-8.5,Taiga,0.24557620709671046
+Future anomaly,N Fixation,SSP5-8.5,Tundra,0.20463271452199694
+Future anomaly,N Fixation,SSP5-8.5,Wetlands,0.015073716467340952
+Future anomaly,N Fixation,SSP5-8.5,Barren,0.007839406922164059
+Future anomaly,N Fixation,SSP5-8.5,Other,0.022319638268281435
+Future anomaly,N Deposition,SSP5-8.5,Taiga,-0.006554819148580852
+Future anomaly,N Deposition,SSP5-8.5,Tundra,-0.0015608442002137957
+Future anomaly,N Deposition,SSP5-8.5,Wetlands,-4.1515967855389234e-4
+Future anomaly,N Deposition,SSP5-8.5,Barren,9.401779709500811e-5
+Future anomaly,N Deposition,SSP5-8.5,Other,-7.738858545530518e-4

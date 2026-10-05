@@ -1,0 +1,61 @@
+Type,Variable,SSP,kind,label,value,sd
+Present day,Min. N following permafrost thaw,NA,total,Pan-Arctic,0.37914827326154615,0.15054443673738713
+Present day,Min. N following permafrost thaw,NA,biome,Taiga,0.1761009014770578,NA
+Present day,Min. N following permafrost thaw,NA,biome,Tundra,0.1684093025713666,NA
+Present day,Min. N following permafrost thaw,NA,biome,Wetlands,0.027576826484318147,NA
+Present day,Min. N following permafrost thaw,NA,biome,Barren,0.0070612427288036395,NA
+Present day,N Fixation,NA,total,Pan-Arctic,0.20952828830719009,0.04345201272682344
+Present day,N Fixation,NA,biome,Taiga,0.11837090521990856,NA
+Present day,N Fixation,NA,biome,Tundra,0.08287965201865348,NA
+Present day,N Fixation,NA,biome,Wetlands,0.0051491407877912974,NA
+Present day,N Fixation,NA,biome,Barren,0.003128590280836752,NA
+Present day,N Deposition,NA,total,Pan-Arctic,0.12747029844373794,0.007115608128566926
+Present day,N Deposition,NA,biome,Taiga,0.07219211795614211,NA
+Present day,N Deposition,NA,biome,Tundra,0.04887909257037448,NA
+Present day,N Deposition,NA,biome,Wetlands,0.003897959183781383,NA
+Present day,N Deposition,NA,biome,Barren,0.002501128733439968,NA
+Future anomaly,Min. N following permafrost thaw,SSP5-8.5,total,SSP5-8.5,1.6628434060051869,0.20364761649637544
+Future anomaly,Min. N following permafrost thaw,SSP5-8.5,biome,Taiga,0.5243143307865343,NA
+Future anomaly,Min. N following permafrost thaw,SSP5-8.5,biome,Tundra,0.9672605496202265,NA
+Future anomaly,Min. N following permafrost thaw,SSP5-8.5,biome,Wetlands,0.15289944811234496,NA
+Future anomaly,Min. N following permafrost thaw,SSP5-8.5,biome,Barren,0.018369077486081103,NA
+Future anomaly,Min. N following permafrost thaw,SSP3-7.0,total,SSP3-7.0,1.2535988152131303,0.22387125201584152
+Future anomaly,Min. N following permafrost thaw,SSP3-7.0,biome,Taiga,0.4193138791923121,NA
+Future anomaly,Min. N following permafrost thaw,SSP3-7.0,biome,Tundra,0.6912532649271597,NA
+Future anomaly,Min. N following permafrost thaw,SSP3-7.0,biome,Wetlands,0.12826625631081603,NA
+Future anomaly,Min. N following permafrost thaw,SSP3-7.0,biome,Barren,0.014765414782842637,NA
+Future anomaly,Min. N following permafrost thaw,SSP1-2.6,total,SSP1-2.6,0.33291065805411385,0.2741172078772119
+Future anomaly,Min. N following permafrost thaw,SSP1-2.6,biome,Taiga,0.1623348169630415,NA
+Future anomaly,Min. N following permafrost thaw,SSP1-2.6,biome,Tundra,0.11600841535029638,NA
+Future anomaly,Min. N following permafrost thaw,SSP1-2.6,biome,Wetlands,0.054702609714487115,NA
+Future anomaly,Min. N following permafrost thaw,SSP1-2.6,biome,Barren,-1.3518397371112875e-4,NA
+Future anomaly,N Fixation,SSP5-8.5,total,SSP5-8.5,0.5031648501644067,0.07064781194501181
+Future anomaly,N Fixation,SSP5-8.5,biome,Taiga,0.26117006542279125,NA
+Future anomaly,N Fixation,SSP5-8.5,biome,Tundra,0.21762669955361974,NA
+Future anomaly,N Fixation,SSP5-8.5,biome,Wetlands,0.01603088329477166,NA
+Future anomaly,N Fixation,SSP5-8.5,biome,Barren,0.008337201893224025,NA
+Future anomaly,N Fixation,SSP3-7.0,total,SSP3-7.0,0.312245884170532,0.09696895391792178
+Future anomaly,N Fixation,SSP3-7.0,biome,Taiga,0.17640908994562465,NA
+Future anomaly,N Fixation,SSP3-7.0,biome,Tundra,0.11663391049704112,NA
+Future anomaly,N Fixation,SSP3-7.0,biome,Wetlands,0.014486997564870017,NA
+Future anomaly,N Fixation,SSP3-7.0,biome,Barren,0.004715886162996227,NA
+Future anomaly,N Fixation,SSP1-2.6,total,SSP1-2.6,0.16731974821186965,0.06370293345914589
+Future anomaly,N Fixation,SSP1-2.6,biome,Taiga,0.09138013821028862,NA
+Future anomaly,N Fixation,SSP1-2.6,biome,Tundra,0.06778763550143845,NA
+Future anomaly,N Fixation,SSP1-2.6,biome,Wetlands,0.005991493693367074,NA
+Future anomaly,N Fixation,SSP1-2.6,biome,Barren,0.002160480806775473,NA
+Future anomaly,N Deposition,SSP5-8.5,total,SSP5-8.5,-0.008972534432364301,0.008311781940164588
+Future anomaly,N Deposition,SSP5-8.5,biome,Taiga,-0.006971044003441479,NA
+Future anomaly,N Deposition,SSP5-8.5,biome,Tundra,-0.0016599563398423459,NA
+Future anomaly,N Deposition,SSP5-8.5,biome,Wetlands,-4.415219279208316e-4,NA
+Future anomaly,N Deposition,SSP5-8.5,biome,Barren,9.998783884034848e-5,NA
+Future anomaly,N Deposition,SSP3-7.0,total,SSP3-7.0,0.013021960726713383,0.00945767208451788
+Future anomaly,N Deposition,SSP3-7.0,biome,Taiga,0.00873179741119294,NA
+Future anomaly,N Deposition,SSP3-7.0,biome,Tundra,0.004242577509199194,NA
+Future anomaly,N Deposition,SSP3-7.0,biome,Wetlands,8.80084926742613e-6,NA
+Future anomaly,N Deposition,SSP3-7.0,biome,Barren,3.878495705381471e-5,NA
+Future anomaly,N Deposition,SSP1-2.6,total,SSP1-2.6,-0.06685497440860358,0.00868987079904609
+Future anomaly,N Deposition,SSP1-2.6,biome,Taiga,-0.038376911308064775,NA
+Future anomaly,N Deposition,SSP1-2.6,biome,Tundra,-0.025427100627736544,NA
+Future anomaly,N Deposition,SSP1-2.6,biome,Wetlands,-0.0018509491042312106,NA
+Future anomaly,N Deposition,SSP1-2.6,biome,Barren,-0.0012000133685710539,NA

@@ -1,0 +1,13 @@
+Pool,Type,SSP,mean_plot,std
+Min. N following permafrost thaw,Present day,Present day,0,0
+N Fixation,Present day,Present day,0.13501250421900285,0.030996628657043786
+N Deposition,Present day,Present day,0.10117888739424837,0.00745738044309156
+Min. N following permafrost thaw,Future anomaly,SSP1-2.6,0,0
+N Fixation,Future anomaly,SSP1-2.6,0.11545303720809813,0.054838220557087355
+N Deposition,Future anomaly,SSP1-2.6,-0.056582032904441734,0.007706400055228919
+Min. N following permafrost thaw,Future anomaly,SSP3-7.0,0,0
+N Fixation,Future anomaly,SSP3-7.0,0.2825207552498104,0.06023188578961785
+N Deposition,Future anomaly,SSP3-7.0,-0.013551159326636905,0.00884796668787229
+Min. N following permafrost thaw,Future anomaly,SSP5-8.5,0,0
+N Fixation,Future anomaly,SSP5-8.5,0.3738152075545473,0.061128962309937473
+N Deposition,Future anomaly,SSP5-8.5,-0.012961245064369575,0.008612719613060921
