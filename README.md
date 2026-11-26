@@ -24,7 +24,7 @@ All plotting scripts take their colours, theme and figure sizes from `plot_style
 
 | Script | What it does | Main output |
 |---|---|---|
-| `ALD_models_plot.R` | Bias-corrects the active-layer depth z\* of each CMIP6 model against ESA Permafrost_cci (2000–2020) and limits it to 0–5 m. Also makes the z\* time series, maps and tables. | `output_data_filled/ALD_corr_<ssp>_60N_<model>.nc` |
+| `ALD_models_plot.R` | Bias-corrects the active-layer depth z\* of each CMIP6 model against ESA Permafrost_cci (2000–2020) and limits it to 5 m. Also makes the z\* time series, maps and tables. | `output_data_filled/ALD_corr_<ssp>_60N_<model>.nc` |
 | `N_thaw_models.R` | Scales a land-cover-specific N depth profile to the soil N stock and integrates it from the surface to z\*. The result is the total N in the active layer, N_AL. | `output_data_filled/arctic_total_thawed_<ssp>_60N_<model>.nc` |
 | `4D_min_models.R` | Computes the newly thawed N relative to 1850–1900 and splits it into pre-thaw inorganic and organic N. It then mineralises the organic pool every month, by depth layer, using soil temperature and moisture. | `<out_base>/<model>_2perc_baseline/arctic_monthly_diagnostics_w_temp<ssp>_1850_2100.csv` and yearly/monthly NetCDF maps |
 
