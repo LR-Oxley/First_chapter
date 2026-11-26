@@ -129,6 +129,30 @@ The input data are not included in this repository. The scripts expect them in `
 
 `flux_comparison.R` also needs CMIP6 N fixation and N deposition (kg N m⁻² s⁻¹) and observational estimates of both.
 
+## Data and output storage
+
+The mineralisation runs (`4D_min_models.R`, `4D_min_extended.R`, `4D_min_fixT.R`)
+write monthly, depth-resolved NetCDF files (about XX GB per SSP and model,
+about XX TB in total). They are therefore not stored in this repository but
+in a separate output folder, set by `out_base` at the top of each script.
+The analysis scripts read the results from the same folder (`base_dir`).
+
+Before running the scripts, set these paths to a location with enough space:
+
+| Script | Setting | Content |
+|---|---|---|
+| `4D_min_models.R` | `out_base` | main runs |
+| `4D_min_extended.R` | `out_base` | runs with spin-out after 2099 |
+| `4D_min_fixT.R` | `out_base` | fixed-temperature runs |
+| `analysis_csv_models.R`, `N_mass_balance_models.R`, `N_inorg_maps.R`, `flux_comparison.R` | `base_dir`, `thaw_base` | read the main runs |
+| `analysis_spinout.R` | `base_dir` | reads the spin-out runs |
+| `4D_min_fixT_analysis.R` | `dir_transient`, `dir_fixT` | read the main and fixT runs |
+
+Smaller outputs (z* and N_AL, `output_data_final/`) and all tables and figures
+of the analysis scripts are written inside the project folder.
+
+The model output used in the paper is available at [DOI / repository].
+
 ---
 
 ## Model in short
