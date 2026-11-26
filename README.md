@@ -24,7 +24,7 @@ All plotting scripts take their colours, theme and figure sizes from `plot_style
 
 | Script | What it does | Main output |
 |---|---|---|
-| `ALD_models_plot.R` | Bias-corrects the active-layer depth z\* of each CMIP6 model against ESA Permafrost_cci (2000–2020) and limits it to 5 m. Also makes the z\* time series, maps and tables. | `output_data_filled/ALD_corr_<ssp>_60N_<model>.nc` |
+| `ALD_models_plot.R` | Bias-corrects the active-layer depth z\* of each CMIP6 model against ESA Permafrost_cci (2000–2020) and limits it to 0–5 m. Also makes the z\* time series, maps and tables. | `output_data_filled/ALD_corr_<ssp>_60N_<model>.nc` |
 | `N_thaw_models.R` | Scales a land-cover-specific N depth profile to the soil N stock and integrates it from the surface to z\*. The result is the total N in the active layer, N_AL. | `output_data_filled/arctic_total_thawed_<ssp>_60N_<model>.nc` |
 | `4D_min_models.R` | Computes the newly thawed N relative to 1850–1900 and splits it into pre-thaw inorganic and organic N. It then mineralises the organic pool every month, by depth layer, using soil temperature and moisture. | `<out_base>/<model>_2perc_baseline/arctic_monthly_diagnostics_w_temp<ssp>_1850_2100.csv` and yearly/monthly NetCDF maps |
 
@@ -34,13 +34,13 @@ Run these after all runs of the main chain have finished.
 
 | Script | What it does | Reads |
 |---|---|---|
-| `N_thaw_check.R` | Checks the thawed N, including the pre-industrial (1850–1900) baseline. | output of `N_thaw_models.R` |
-| `analysis_N_thaw.R` | Thawed N per model: pan-Arctic and biome stocks, time series, maps and numbers for the text. | output of `N_thaw_models.R` |
+| `N_thaw_check.R` | Checks N_AL for the present day (2000–2020) with the raw and the bias-corrected z\* of each model, with the ESA CCI z\*, and with z\* = 3 m and 5 m. With z\* = 3 m it must reproduce the soil N stock. | z\* files of `ALD_models_plot.R`, input data |
+| `analysis_N_thaw.R` | N_AL and N_thaw,cum per model: pan-Arctic and biome stocks, numbers for the text, N stocks 0–3 m and 0–5 m, time series, maps of the present day and of the change by 2080–2099, the biome map and the N depth profiles. | output of `N_thaw_models.R` |
 | `analysis_csv_models.R` | Pan-Arctic time series of N_min, N_inorg and N_thaw,inorg, cumulative sums, seasonal cycles, values per m² and the numbers for the text. | diagnostics CSVs of `4D_min_models.R` |
 | `N_mass_balance_models.R` | N mass balance (frozen, thawed organic, released as inorganic N) for every model run, with the spin-out after 2099. | output of `N_thaw_models.R`, `4D_min_models.R`, `4D_min_extended.R` |
-| `N_inorg_maps.R` | Maps of N_inorg (g N m⁻² yr⁻¹) averaged over a chosen period. | monthly NetCDF maps of `4D_min_models.R` |
+| `N_inorg_maps.R` | Map of N_inorg (g N m⁻² yr⁻¹) averaged over a chosen period, as the mean of the models of each SSP, in discrete classes, with map statistics per model. | monthly NetCDF maps of `4D_min_models.R` |
 | `spatial_plotting.R` | Other maps of the model output. | NetCDF output of `4D_min_models.R` |
-| `flux_comparison.R` | Compares N_inorg from thaw with N fixation and N deposition (CMIP6, observations), pan-Arctic and by biome, for the present day and 2080–2099. | output of `4D_min_models.R`, CMIP6 fixation and deposition |
+| `flux_comparison.R` | Compares N_inorg from thaw with N fixation and N deposition, pan-Arctic and by biome, for the present day (1995–2014) and 2080–2099 (SSP1-2.6, SSP3-7.0, SSP5-8.5). Present-day fixation and deposition are the mean of CMIP6 and observations. Loaded tables are cached; `Rscript flux_comparison.R load` only fills the cache. | output of `4D_min_models.R`, CMIP6 fixation and deposition |
 
 ### 3. Spin-out after 2099
 
@@ -60,7 +60,7 @@ Run these after all runs of the main chain have finished.
 
 | Script | What it does |
 |---|---|
-| `plot_style.R` | Common plotting style: SSP colours, `theme_paper()`, `plot_timeseries()`, `plot_diag()` and `save_paper()` (PNG at 900 dpi and PDF). |
+| `plot_style.R` | Common plotting style: SSP colours, `theme_paper()`, `plot_timeseries()`, `plot_diag()` and `save_paper()` (PDF; PNG at 900 dpi on request). |
 
 ---
 
@@ -81,7 +81,7 @@ Rscript 4D_min_extended.R 126 Nor      # spin-out after 2099
 Rscript 4D_min_fixT.R 585 Nor          # fixed-temperature run
 
 # analysis: after all runs have finished
-Rscript N_thaw_check.R
+Rscript N_thaw_check.R 585
 Rscript analysis_N_thaw.R
 Rscript analysis_csv_models.R
 Rscript N_mass_balance_models.R
